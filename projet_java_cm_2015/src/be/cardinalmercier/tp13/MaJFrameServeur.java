@@ -57,7 +57,7 @@ public class MaJFrameServeur extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				try {
 					
-					MonServeurTCP ms = new MonServeurTCP(Integer.parseInt(jtextFieldNumPort.getText()));
+					MonServeurTCP2 ms = new MonServeurTCP2(Integer.parseInt(jtextFieldNumPort.getText()));
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
